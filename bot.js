@@ -14,10 +14,9 @@ const arcTestnet = {
 };
 
 // ── Contracts ──────────────────────────────────────────────
-const USDC = '0xD00d26b7Ee3a909Fe1513c3bCDBFd0dCe937baC6';
-const POOL = '0x5E4a7B73A4213246E4Ca4a9E41a9F65d15c11aB5';
-const WETH = '0x916cF05B2C7760616520873165617B68C0ea02d4';
-
+const USDC = '0x3600000000000000000000000000000000000000';
+const POOL = '0x34947554f4Be92b14BAB291F500e61c667a62072';
+const WETH = '0x3881C83EE82e2F8Be4c9eB10cf39f3eB1C275353';
 // ── ABIs ───────────────────────────────────────────────────
 const ERC20_ABI = [
   { name: 'approve',   type: 'function', inputs: [{ name: 'spender', type: 'address' }, { name: 'amount', type: 'uint256' }], outputs: [{ type: 'bool' }], stateMutability: 'nonpayable' },
